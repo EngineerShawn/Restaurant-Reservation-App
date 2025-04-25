@@ -6,7 +6,7 @@ require('dotenv').config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgres://mqaeqsxr:gbBvTTulTFnAdmeumQFkiWg7B_FSm-9h@raja.db.elephantsql.com/mqaeqsxr",
+  DATABASE_URL = process.env.DATABASE_URL,
   DATABASE_URL_DEVELOPMENT = "postgres://mqaeqsxr:gbBvTTulTFnAdmeumQFkiWg7B_FSm-9h@raja.db.elephantsql.com/mqaeqsxr",
   DATABASE_URL_TEST = "postgres://mqaeqsxr:gbBvTTulTFnAdmeumQFkiWg7B_FSm-9h@raja.db.elephantsql.com/mqaeqsxr",
   DATABASE_URL_PREVIEW = "postgres://mqaeqsxr:gbBvTTulTFnAdmeumQFkiWg7B_FSm-9h@raja.db.elephantsql.com/mqaeqsxr",
