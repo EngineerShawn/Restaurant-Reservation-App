@@ -1,0 +1,26 @@
+.side-bar {
+  min-width: 200px;
+}
+
+.sidebar-brand-text, text-wrap mx-3 {
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+#accordionSidebar .nav-link {
+  color: rgba(255, 255, 255, 0.664);
+  margin-top: 20px;
+}
+
+.bg-menu {
+  background-color: #252525;
+}
+
+
+input {
+  box-shadow:inset 0px 3px 2px 0px rgb(187, 187, 187);
+}
+
+.btn {
+  box-shadow:0px 2px 6px rgb(141, 141, 141);
+}
